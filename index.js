@@ -23,11 +23,14 @@ const parentList = [
 ]
 
 function getParent(list, children){
-  return
-}
+   for (parent in list)
+      {
+            if(parent.children =  children){ return parent.name}
+       }
+  }
 
 const parent = getParent(parentList, 'Pedro')
 
 console.log(parent)
 
-//a função deve retornar o nome do pai de acordo com o nome de seu filho passado no segundo parâmetro 
+//a função deve retornar o nome do pai de acordo com o nome de seu filho passado no segundo parâmetro
